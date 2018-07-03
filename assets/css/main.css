@@ -1987,9 +1987,9 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #7F7F7F url("images/overlay.png");
-			color: #fff;
-			color: rgba(240, 240, 240, .75)
+			background: #DAFADA url("images/overlay.png"); /* background color */
+			color: #fff; /* Secondary text color */
+			color: rgba(240, 240, 240, .75) /* Text color */
 		}
 
 			.wrapper.style1 .title {

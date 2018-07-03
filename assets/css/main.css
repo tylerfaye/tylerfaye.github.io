@@ -112,7 +112,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: #79D779;
+			color: #9FDF9F;
 			text-decoration: none;
 		}
 
@@ -1672,7 +1672,7 @@ input, select, textarea {
 		input[type="reset"].style1,
 		button.style1,
 		.button.style1 {
-			background: #79D779 url("images/overlay.png");
+			background: #9FDF9F url("images/overlay.png");
 			color: #fff;
 		}
 
@@ -1987,13 +1987,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #ADEBAD url("images/overlay.png"); /* background color */
+			background: #9FDF9F url("images/overlay.png"); /* background color */
 			color: #fff; /* Secondary text color */
 			color: rgba(240, 240, 240, .75) /* Text color */
 		}
 
 			.wrapper.style1 .title {
-				background: #ADEBAD url("images/overlay.png");
+				background: #9FDF9F url("images/overlay.png");
 				color: #fff;
 			}
 

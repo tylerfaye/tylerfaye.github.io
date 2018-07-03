@@ -1987,13 +1987,13 @@ input, select, textarea {
 			}
 
 		.wrapper.style1 {
-			background: #DAFADA url("images/overlay.png"); /* background color */
+			background: #ADEBAD url("images/overlay.png"); /* background color */
 			color: #fff; /* Secondary text color */
 			color: rgba(240, 240, 240, .75) /* Text color */
 		}
 
 			.wrapper.style1 .title {
-				background: #dafada url("images/overlay.png");
+				background: #ADEBAD url("images/overlay.png");
 				color: #fff;
 			}
 

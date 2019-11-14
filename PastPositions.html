@@ -127,6 +127,48 @@
 										potentially biohazardous fluids or materials during
 										testing.
 									</p>
+									<p>
+										The control system consists of two Arduino Uno devices
+										working in parallel with one another. While the Arduino
+										initially appeared perfectly suited for the task, it
+										later became evident that more analog inputs and outputs
+										of any kind would be neccesary than a single Arduino Uno
+										could provide. This led to the addition of the 2nd
+										microcontroller with serial communication coordinating
+										their actions. User operation was simple - 
+										target temperature and humidity were adjusted in half
+										degree and 1% increments using the provided buttons. 
+										The device displayed the current temperature, humidity,
+										and insufflation pressure on an LCD screen and alerted
+										the user when desired conditions had been reached. At
+										this time the user flipped a switch to shut off the fan,
+										heat lamp, and humidifier to test and gather data
+										without external bias. The device then notifies the user
+										when parameters are no longer within 2% humidity and/or
+										2 degrees Fahrenheit of the original target, allowing
+										them to re-enable the climate control systems to
+										once again attain target conditions. Throughout all of
+										this the conditions inside the chamber are continuously
+										logged to an SD card for later inclusion in experimental
+										datasets.
+									</p>
+									<p>
+										The end result of the project was a large success,
+										with the device still in use for various tissue testing
+										projects to this day. The chamber was able to reach
+										desired target temperatures and humidities with an
+										accuracy of within 1/2 degree fahrenheit and 1% humidity.
+										It was also able to reach operating conditions faster than
+										expected, less than 5 minutes in many cases. Target
+										conditions were passively held for a long enough time
+										to perform tests and collect data. The only issues that
+										have arisen since deployment through repeated use are
+										related to the wear resistance of the silicone sealant,
+										which requires periodic replacement in joints and along
+										the ports of the lid where trocars are inserted. These
+										areas experience wear due to scrubbing during disinfection
+										and rubbing from insertion/removal of trocars.
+									</p>
 								</article>
 							</div>
 
